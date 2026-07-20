@@ -1,0 +1,79 @@
+.Background {
+    background-color: rgb(25, 25, 25);
+}
+.Heading {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+}
+.Adding-button {
+    background-color: rgb(25, 25, 25);
+    height: 40px;
+    width: 42px;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 60px;
+    left: -60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+.Adding-button:hover{
+    border-color: rgb(222, 222, 222);
+    color: rgb(222, 222, 222);
+}
+.Adding-button:active {
+    border-color: rgb(165, 165, 165);
+    color: rgb(165, 165, 165);
+}
+.Middle-box {
+    background-color: rgb(25, 25, 25);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(233, 233, 233);
+    height: 570px;
+    width: 800px;
+    margin: auto;
+    border-radius:50px ;
+    position: relative;
+}
+.Task {
+    color: white;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 70px;
+    left: 95px;
+}
+.delete-icon {
+    position: absolute;
+    top: 70px;
+    left: 55px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0%;
+}
+.delete-icon:hover {
+    filter: brightness(90%);
+}
+.delete-icon:active {
+    filter: brightness(70%);
+}
+.history-icon {
+    position: absolute;
+    top: 127px;
+    left: -50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+}
+.history-icon:hover {
+    filter: brightness(90%);
+}
+.history-icon:active {
+    filter: brightness(70%);
+}

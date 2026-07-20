@@ -17,6 +17,8 @@ A terminal-based Todo application built with **Python** and **MySQL** that helps
 - mysql-connector-python
 - Git
 - GitHub
+- HTML
+- CSS
 
 **Application Menu**
 
